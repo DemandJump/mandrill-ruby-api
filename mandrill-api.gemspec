@@ -9,4 +9,5 @@ Gem::Specification.new do |s|
     s.homepage = 'https://bitbucket.org/mailchimp/mandrill-api-ruby/'
     s.add_dependency 'json', '>= 1.7.7', '<= 2.3'
     s.add_dependency 'excon', '>= 0.16.0', '< 1.0'
+    s.add_dependency 'mimemagic', '~> 0.4.3'
 end
